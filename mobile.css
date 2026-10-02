@@ -99,25 +99,26 @@
     bottom: -16px;
   }
 
-  /* TORTA */
-  .torta {
+.torta {
+    position: absolute;
     transform: scale(0.63);
     left: 17px;
     bottom: -27px;
-  }
+}
 
-  /* VELA */
-  .vela {
-    transform: scale(0.65);
-    left: 160px;
-    bottom: 74px;
-  }
+.vela {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) scale(0.65);
+}
 
-  /* LLAMA */
-  .llama {
-    left: 157px;
-    bottom: 138px;
-  }
+.llama {
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+}
 
   .caja {
     transform: scale(0.65);

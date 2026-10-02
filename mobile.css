@@ -90,7 +90,7 @@
   .happy-birthday {
     font-size: 36px;
     top: -100%;
-    left: 130px; 
+    left: 130px;
   }
 
   .portaretrato {
@@ -99,27 +99,30 @@
     bottom: -16px;
   }
 
+  /* TORTA */
   .torta {
     transform: scale(0.63);
     left: 17px;
     bottom: -27px;
   }
 
+  /* VELA */
+  .vela {
+    transform: scale(0.65);
+    left: 160px;
+    bottom: 74px;
+  }
+
+  /* LLAMA */
+  .llama {
+    left: 157px;
+    bottom: 138px;
+  }
+
   .caja {
     transform: scale(0.65);
     left: -100px;
     bottom: -35px;
-  }
-
-  .vela {
-    transform: scale(.65);
-    bottom: 74px;
-    left: 160px;
-  }
-
-  .llama {
-    bottom: 138px;
-    left: 157px;
   }
 
   .carta {
